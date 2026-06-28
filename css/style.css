@@ -35,10 +35,23 @@ body {
     color: #fff;
 }
 
+.btn-3 {
+    background-color: #dc3545;
+    color: #fff;
+    border-bottom: 4px solid #c82333;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
 .btn-1:hover {
     background-color: #0069d9;
 }
 
 .btn-2:active {
     transform: scale(0.95);
+}
+
+.btn-3:active {
+    transform: translateY(2px);
+    border-bottom: 2px solid #c82333;
 }
