@@ -25,20 +25,20 @@ body {
     transition: background-color 0.2s ease, transform 0.1s ease;
 }
 
-.btn-primary {
+.btn-1 {
     background-color: #007bff;
     color: #fff;
 }
 
-.btn-add {
+.btn-2 {
     background-color: #28a745;
     color: #fff;
 }
 
-.btn-primary:hover {
+.btn-1:hover {
     background-color: #0069d9;
 }
 
-.btn-add:active {
+.btn-2:active {
     transform: scale(0.95);
 }
