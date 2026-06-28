@@ -13,6 +13,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    gap: 10px;
 }
 
 .btn {
@@ -21,7 +22,7 @@ body {
     border-radius: 6px;
     cursor: pointer;
     font-size: 16px;
-    transition: background-color 0.2s ease;
+    transition: background-color 0.2s ease, transform 0.1s ease;
 }
 
 .btn-primary {
@@ -29,6 +30,15 @@ body {
     color: #fff;
 }
 
+.btn-add {
+    background-color: #28a745;
+    color: #fff;
+}
+
 .btn-primary:hover {
     background-color: #0069d9;
+}
+
+.btn-add:active {
+    transform: scale(0.95);
 }
